@@ -1,0 +1,30 @@
+{
+  "name": "back-type",
+  "version": "1.0.0",
+  "description": "Projecto de prueba typescript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "johnatan barrero",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "moment-timezone": "^0.5.45",
+    "ts-node-dev": "^2.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "joi-to-typescript": "^4.13.0",
+    "tslint": "^6.1.3",
+    "typescript": "^5.4.5"
+  }
+}
